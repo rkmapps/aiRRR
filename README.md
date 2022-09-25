@@ -17,5 +17,6 @@ The SDM may want to provide an update on the bug during the meeting, so a short 
 ### Note: Open source code used in this project
 a) Text summarization - SpaCy
 https://spacy.io
+
 b) Face Recognition - PyPI
 https://pypi.org/project/face-recognition
