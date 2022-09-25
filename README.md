@@ -13,3 +13,9 @@ The SDM may want to provide an update on the bug during the meeting, so a short 
 1. Productive interactions within the organization
 2. Shorter physical/virtual meetings & Quicker resolution of bugs saving time
 3. More scenarios could be explored using the above model reaping greater benefits for the organization
+
+### Note: Open source code used in this project
+a) Text summarization - SpaCy
+https://spacy.io
+b) Face Recognition - PyPI
+https://pypi.org/project/face-recognition
