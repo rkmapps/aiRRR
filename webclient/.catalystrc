@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "7867000000004044",
+      "name": "IRRR",
+      "domain": {
+        "id": "10046938727",
+        "name": "irrr-787344998.development"
+      },
+      "env": [
+        {
+          "idx": 1,
+          "id": "787344998",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

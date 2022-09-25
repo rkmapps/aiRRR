@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "targets": [
+      "irrr_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}

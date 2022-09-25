@@ -1,0 +1,170 @@
+/* LET THE STYLING BEGIN */
+
+@import url('https://fonts.googleapis.com/css?family=Sarala');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #070708;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+#content {
+  padding: 16px;
+}
+
+#sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#sticky + .content {
+  padding-top: 102px;
+}
+
+.topbar {
+  background-color: #333;
+
+}
+
+h1 {
+  color: rgb(10, 6, 6);
+  font-family: Sarala, Arial, sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#container {
+  max-width: 80vw;
+  max-height: 100vh;
+  position: relative;
+}
+
+#container1 {
+  max-width: 80vw;
+  max-height: 80vh;
+  position: relative;
+}
+#player {
+  width: 100%;
+  border: 2px solid #111;
+  box-shadow: 0 0 50px #111;
+}
+.col {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+#output {
+  display: none;
+}
+
+.textarea{
+  font-size: 12px;
+}
+
+#snackbar1 {
+  visibility: hidden;
+  max-width: 600px; 
+  min-width: 60vw;
+  background-color: #333;
+  color: #fff;
+  /* text-align: left; */
+  border-radius: 2px;
+  padding: 10px;
+  position: fixed;
+  z-index: 1;
+  font-size: 17px;
+  top: 0;
+  bottom:30px;
+  position:fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+
+#snackbar1.show {
+  visibility: visible;
+  -webkit-animation: fadein .5s, fadeout .5s 300s;
+  animation: fadein .5s, fadeout .5s 300s;
+}
+ 
+
+#snackbar {
+    visibility: hidden;
+    max-width: 600px; 
+    min-width: 60vw;
+    /* margin-left: -250px;
+    margin-right: -250px; */
+    background-color: #333;
+    color: #fff;
+    /* text-align: left; */
+    border-radius: 2px;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    /* left: 5%;
+    right : 5%; */
+    /* bottom: 30px; */
+    font-size: 17px;
+    top: 0;
+    bottom:30px;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+  }
+
+  #snackbar.hide {
+    visibility: hidden;
+
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein .5s, fadeout .5s 300s;
+    animation: fadein .5s, fadeout .5s 300s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
