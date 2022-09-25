@@ -10,12 +10,13 @@ List a few benefits of using your app:
 1. Productive interactions within the organization
 2. Shorter physical/virtual meetings & Quicker resolution of bugs saving time
 3. More scenarios could be explored using the above model reaping greater benefits for the organization
+
 How do you plan to achieve this using Catalyst? List features and functionalities of Catalyst that your app will cover:
-A simplified prototype of the above scenario is planned for implementation:
-1. Web app in Zoho catalyst to capture image from camera
-2. Face Analytics and recognition using Zoho Catalyst and third party web services
-3. Streaming Captured camera images from Catalyst webapp to face recognition API to identify the member
-4. Once the user present in the image is identified, we create a webservice in catalyst functions to query the last few messages/message context of the specific user from Zoho Cliq
+   A simplified prototype of the above scenario is planned for implementation:
+      1. Web app in Zoho catalyst to capture image from camera
+      2. Face Analytics and recognition using Zoho Catalyst and third party web services
+      3. Streaming Captured camera images from Catalyst webapp to face recognition API to identify the member
+      4. Once the user present in the image is identified, we create a webservice in catalyst functions to query the last few messages/message context of the specific user from Zoho Cliq
 
 Catalyst services to be used in the project:
        Develop - Data Store, File Store
