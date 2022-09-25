@@ -9,7 +9,7 @@ If the SDM intends to interact with a Software Testing Lead (STL) regarding a cr
 
 The SDM may want to provide an update on the bug during the meeting, so a short response may be drafted by advanced AI-based systems to assist the SDM in initiating a dialog/conversation regarding the bug.
 
-## List a few benefits of using your app:
+## Benefits of using aiRRR app:
 1. Productive interactions within the organization
 2. Shorter physical/virtual meetings & Quicker resolution of bugs saving time
 3. More scenarios could be explored using the above model reaping greater benefits for the organization
